@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: fixed;
+}
+#search{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: -200px;
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    box-shadow: 2px;
+}
+#search:hover{
+    color: rgb(187, 202, 209);
+}
+h2{
+    margin: -56px 1px 1px 150px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.dream{
+    margin: -2px 0px 0px 151px;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+div ul{
+    margin: -40px 10px 20px 550px;  
+}
+div ul li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px; 
+    flex: left;
+    color: white;
+    cursor: pointer;
+}
+div ul li:hover{
+    transition: 0.1s;
+    color: black;
+}
+.login{
+    margin: -65px 10px 20px 1200px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.job{
+    margin: -48px 130px 60px 1250px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.job:hover{
+    transition: 0.2s;
+    background-color: white;
+    color: black;
+}
+.list{
+    margin: 200px 0px 0px 160px;
+    color: white;
+    font-size: 30px;
+}
+h1{
+    margin: -2px 0px 0px 160px;
+    color: white;
+    font-size: 55px;
+}
+p{
+    margin: -2px 0px 0px 160px;
+    color: white;
+    font-size: 20px;
+}
+button{
+     margin: 50px 0px 0px 160px;
+     padding: 20px;
+     color: white;
+     border-radius: 10px;
+     background-color: black;
+}
+button:hover{
+    transition: 0.2s;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+.button{
+    margin: 50px 1100px 50px 160px;
+    padding: 15px 20px 15px 35px;
+    border: 2px solid ;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.button:hover{
+    transition: 0.2s;
+    background: white;
+    color: black;
+}
